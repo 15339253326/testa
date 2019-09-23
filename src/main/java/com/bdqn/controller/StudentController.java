@@ -20,6 +20,7 @@ public class StudentController {
     @Autowired
     private RedisTemplate redisTemplate;
 
+    //测试Git 提交数据
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index() {
         return "index";
